@@ -40,7 +40,7 @@ let server = http.createServer((req, res)=> {
 	}
 });
 
-var mime = {
+const mime = {
 	'.html': 'text/html',
 	'.css' : 'text/css',
 	'.js' : 'text/javascript'
